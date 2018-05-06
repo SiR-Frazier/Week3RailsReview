@@ -10,6 +10,11 @@ class ProductsController < ApplicationController
     @product = Product.new
   end
 
+  def show ##added##
+    @products = Product.all
+    @product = Product.find(params:[:id])
+  end
+
   def create
     @product = Product.new(product_params)
     if @product.save
@@ -18,6 +23,7 @@ class ProductsController < ApplicationController
       render :new
     end
   end
+
 
   private
   def product_params
