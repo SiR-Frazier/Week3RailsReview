@@ -5,8 +5,10 @@
   <% @products.each do |product| %>
     <div class="col s4">
       <h4><%= product.name %></h4>
+      <%= link_to "#{product.name}", product_path(product), id: "#{product.id}", remote: true %>
       <p><%= link_to 'Show Description', product_path(product), id: "#{product.id}", remote: true %></p>
-      <div id="description_<%=product.id%>">
+      <div id="product_description_<%=product.id%>">
+
       </div>
       <p><%= number_to_currency product.price %></p>
       <%= form_for @order_item do |f| %>
