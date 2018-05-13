@@ -10,7 +10,10 @@ _Added Stripe. May 12, 2018_
 
 _Add flash messages for when the cart has been updated, an account has been created, and when a user has logged out_
 
-_Add validation of 0 or greater to quantity and added required to quantity field in the product/index.html.erb file.
+_Add validation of 0 or greater to quantity and added required to quantity field in the product/index.html.erb file_
+
+_Add product validations_
+
 
 
 ## Set Up Instructions
