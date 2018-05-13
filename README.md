@@ -1,10 +1,19 @@
 # README
 
-_Epicodus Code Review for Week 3 of Rails_
+## Epicodus Code Review for Week 3 of Rails
 
-_Add AJAX to existing code. May 5, 2017_
+## Updates to Code
 
-_Set Up Instructions_
+_Added AJAX to existing code. May 5, 2018_
+
+_Added Stripe. May 12, 2018_
+
+_Add flash messages for when the cart has been updated, an account has been created, and when a user has logged out_
+
+_
+
+
+## Set Up Instructions
 
 * Make sure Ruby, Rails, and PostgreSQL are installed.
 * Clone Git Repository: https://github.com/SiR-Frazier/Wk3RailsReview
@@ -16,7 +25,7 @@ _Set Up Instructions_
 * run rails s
 * go to localhost:3000 in your preferred browser.
 
-_Built With_
+## Built With
 * Ruby
 * Rails
 * Javascript
@@ -24,7 +33,7 @@ _Built With_
 * CSS
 
 
-_License_
+## License
 
 MIT License
 

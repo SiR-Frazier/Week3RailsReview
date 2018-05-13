@@ -20,6 +20,7 @@ class OrderItemsController < ApplicationController
     @item = @order.order_items.find(params[:id])
     @item.destroy
     @order.save
+    flash[:notice] = "Your cart has been updated."
     redirect_to cart_path
   end
 
