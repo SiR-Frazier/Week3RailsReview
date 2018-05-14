@@ -12,7 +12,9 @@ _Add flash messages for when the cart has been updated, an account has been crea
 
 _Add validation of 0 or greater to quantity and added required to quantity field in the product/index.html.erb file_
 
-_Add product validations_
+_Add password validations and requirements when signing up-minimum of 6 characters_
+
+
 
 
 
