@@ -1,6 +1,12 @@
-# README
+# Went to Bali!
 
-## Epicodus Code Review for Week 3 of Rails
+## Epicodus Code Review for Week 3 of Rails. The purpose of this project was to have students update an existing applications with additional features.
+
+## Functionality
+
+_As a User, I can view each product description._
+
+_As a User, I can create an account, sign in, and purchase items._
 
 ## Updates to Code
 
@@ -13,10 +19,6 @@ _Add flash messages for when the cart has been updated, an account has been crea
 _Add validation of 0 or greater to quantity and added required to quantity field in the product/index.html.erb file_
 
 _Add password validations and requirements when signing up-minimum of 6 characters_
-
-
-
-
 
 ## Set Up Instructions
 
